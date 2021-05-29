@@ -53,7 +53,7 @@ class CountdownTimer {
 
 const forTimer = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("Jun 1, 2022"),
+  targetDate: new Date("January 1, 2022"),
 });
 
 forTimer.startCounting();
